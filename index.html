@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HookVault Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #081225;
+        --panel: rgba(2, 6, 23, 0.82);
+        --panel-border: rgba(148, 163, 184, 0.18);
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --accent: #22d3ee;
+        --accent-soft: rgba(34, 211, 238, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        line-height: 1.65;
+        background:
+          radial-gradient(circle at top left, rgba(14, 165, 233, 0.22), transparent 28%),
+          radial-gradient(circle at right center, rgba(52, 211, 153, 0.18), transparent 24%),
+          linear-gradient(145deg, #081225 0%, #020617 100%);
+        color: var(--text);
+      }
+
+      main {
+        max-width: 900px;
+        margin: 48px auto;
+        padding: 0 20px;
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--panel-border);
+        border-radius: 24px;
+        padding: 32px;
+        box-shadow: 0 24px 80px rgba(2, 6, 23, 0.45);
+        backdrop-filter: blur(12px);
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 16px;
+        line-height: 1.2;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        margin-top: 28px;
+        font-size: 22px;
+      }
+
+      p,
+      li {
+        color: var(--text);
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      .pill {
+        display: inline-block;
+        margin-bottom: 16px;
+        padding: 6px 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(34, 211, 238, 0.28);
+        background: var(--accent-soft);
+        color: #cffafe;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      .footer {
+        margin-top: 28px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(148, 163, 184, 0.12);
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="pill">HOOKVAULT PRIVACY POLICY</div>
+        <h1>Privacy Policy</h1>
+        <p class="muted">Effective date: May 7, 2026</p>
+
+        <p>
+          HookVault is a Chrome extension that helps users save and organize public
+          posts from X/Twitter into a local swipe file.
+        </p>
+
+        <h2>1. What HookVault Does</h2>
+        <p>
+          HookVault lets users save public posts from x.com and twitter.com,
+          along with related metadata such as source links, post text, author
+          information, tags, notes, media type, and status.
+        </p>
+
+        <h2>2. Information HookVault Collects</h2>
+        <p>When a user chooses to save a public post, HookVault may collect and store:</p>
+        <ul>
+          <li>Source URL of the saved post</li>
+          <li>Post text visible on the page</li>
+          <li>Author name and handle when available</li>
+          <li>Media type and visible media URLs available from the page DOM</li>
+          <li>User-added tags</li>
+          <li>User-added notes</li>
+          <li>Status such as used or unused</li>
+          <li>Created and updated timestamps</li>
+        </ul>
+
+        <h2>3. How HookVault Uses Information</h2>
+        <p>HookVault uses this information only to provide its core functionality, including:</p>
+        <ul>
+          <li>Saving public X/Twitter posts into a local swipe file</li>
+          <li>Helping users search, filter, organize, and review saved items</li>
+          <li>Allowing users to export their saved library as CSV or JSON</li>
+        </ul>
+
+        <h2>4. Where Information Is Stored</h2>
+        <p>
+          HookVault stores saved data locally in the user’s browser using
+          <code>chrome.storage.local</code>.
+        </p>
+        <p>
+          HookVault does not require an account and does not send saved posts,
+          notes, or library contents to the developer’s servers.
+        </p>
+
+        <h2>5. Sharing of Information</h2>
+        <p>
+          HookVault does not sell, rent, or share saved library data with third parties.
+        </p>
+        <p>
+          Data is only exported or copied when the user explicitly chooses to do so.
+        </p>
+
+        <h2>6. Permissions and Site Access</h2>
+        <p>HookVault requests the following permissions only to support its user-facing features:</p>
+        <ul>
+          <li><code>storage</code>: to store saved items locally in the browser</li>
+          <li><code>activeTab</code>: to interact with the current tab when the user uses the extension</li>
+          <li>
+            <code>https://x.com/*</code> and <code>https://twitter.com/*</code>:
+            to run only on X/Twitter pages and allow users to save public posts
+          </li>
+        </ul>
+
+        <h2>7. What HookVault Does Not Do</h2>
+        <ul>
+          <li>HookVault does not download protected videos or media files</li>
+          <li>HookVault does not bypass paywalls, DRM, or login restrictions</li>
+          <li>HookVault does not access private content</li>
+          <li>HookVault does not provide cloud sync, advertising, or data resale</li>
+        </ul>
+
+        <h2>8. Data Security</h2>
+        <p>
+          Because HookVault stores saved library data locally in the browser, users
+          remain in control of their saved content on their device. If future versions
+          of HookVault introduce remote services, this privacy policy will be updated
+          before those services are used.
+        </p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>
+          This privacy policy may be updated from time to time to reflect product,
+          legal, or policy changes. The latest version will be posted at this URL.
+        </p>
+
+        <h2>10. Contact</h2>
+        <p>
+          For privacy-related questions, contact:
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+        </p>
+
+        <div class="footer">
+          This page is intended for the HookVault Chrome extension listing and should
+          stay consistent with the extension’s actual behavior and Chrome Web Store
+          privacy disclosures.
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
